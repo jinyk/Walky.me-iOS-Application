@@ -3,7 +3,7 @@
 //  Walky
 //
 //  Created by Jinyoung Kim on 2/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Walky.me. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

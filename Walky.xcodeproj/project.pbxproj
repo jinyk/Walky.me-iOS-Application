@@ -25,6 +25,13 @@
 		90119CFD14EB66CA00AA1597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD314EB66C900AA1597 /* Foundation.framework */; };
 		90119D0514EB66CA00AA1597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90119D0314EB66CA00AA1597 /* InfoPlist.strings */; };
 		90119D0814EB66CA00AA1597 /* WalkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119D0714EB66CA00AA1597 /* WalkyTests.m */; };
+		90119D1314EB696800AA1597 /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119D1114EB696800AA1597 /* radar.png */; };
+		90119D1414EB696800AA1597 /* route.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119D1214EB696800AA1597 /* route.png */; };
+		9023EFB114EB6AA400D85E8D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB014EB6AA400D85E8D /* Default.png */; };
+		9023EFB314EB6AA800D85E8D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB214EB6AA800D85E8D /* Default@2x.png */; };
+		9023EFB514EB6AAD00D85E8D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB414EB6AAD00D85E8D /* icon.png */; };
+		9023EFB714EB6AB000D85E8D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB614EB6AB000D85E8D /* icon@2x.png */; };
+		9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9023EFB814EB6AC000D85E8D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +49,34 @@
 		90119CD114EB66C900AA1597 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90119CD314EB66C900AA1597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90119CD514EB66C900AA1597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90119CD914EB66C900AA1597 /* Walky-Info.plist */ = {isa = PBXFileReference; path = "Walky-Info.plist"; sourceTree = "<group>"; };
+		90119CD914EB66C900AA1597 /* Walky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Walky-Info.plist"; sourceTree = "<group>"; };
 		90119CDB14EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90119CDD14EB66CA00AA1597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90119CDF14EB66CA00AA1597 /* Walky-Prefix.pch */ = {isa = PBXFileReference; path = "Walky-Prefix.pch"; sourceTree = "<group>"; };
-		90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */ = {isa = PBXFileReference; path = WalkyAppDelegate.h; sourceTree = "<group>"; };
+		90119CDF14EB66CA00AA1597 /* Walky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Walky-Prefix.pch"; sourceTree = "<group>"; };
+		90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyAppDelegate.h; sourceTree = "<group>"; };
 		90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyAppDelegate.m; sourceTree = "<group>"; };
 		90119CE414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */ = {isa = PBXFileReference; path = WalkyFirstViewController.h; sourceTree = "<group>"; };
+		90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyFirstViewController.h; sourceTree = "<group>"; };
 		90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyFirstViewController.m; sourceTree = "<group>"; };
 		90119CE914EB66CA00AA1597 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		90119CEB14EB66CA00AA1597 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */ = {isa = PBXFileReference; path = WalkySecondViewController.h; sourceTree = "<group>"; };
+		90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkySecondViewController.h; sourceTree = "<group>"; };
 		90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkySecondViewController.m; sourceTree = "<group>"; };
 		90119CF014EB66CA00AA1597 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		90119CF214EB66CA00AA1597 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		90119CF914EB66CA00AA1597 /* WalkyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		90119D0214EB66CA00AA1597 /* WalkyTests-Info.plist */ = {isa = PBXFileReference; path = "WalkyTests-Info.plist"; sourceTree = "<group>"; };
+		90119D0214EB66CA00AA1597 /* WalkyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalkyTests-Info.plist"; sourceTree = "<group>"; };
 		90119D0414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		90119D0614EB66CA00AA1597 /* WalkyTests.h */ = {isa = PBXFileReference; path = WalkyTests.h; sourceTree = "<group>"; };
+		90119D0614EB66CA00AA1597 /* WalkyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyTests.h; sourceTree = "<group>"; };
 		90119D0714EB66CA00AA1597 /* WalkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyTests.m; sourceTree = "<group>"; };
+		90119D1114EB696800AA1597 /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radar.png; path = ../radar.png; sourceTree = "<group>"; };
+		90119D1214EB696800AA1597 /* route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = route.png; path = ../route.png; sourceTree = "<group>"; };
+		9023EFB014EB6AA400D85E8D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9023EFB214EB6AA800D85E8D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9023EFB414EB6AAD00D85E8D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9023EFB614EB6AB000D85E8D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9023EFB814EB6AC000D85E8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */,
 				90119CD214EB66C900AA1597 /* UIKit.framework in Frameworks */,
 				90119CD414EB66C900AA1597 /* Foundation.framework in Frameworks */,
 				90119CD614EB66C900AA1597 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +107,11 @@
 		90119CC214EB66C900AA1597 = {
 			isa = PBXGroup;
 			children = (
+				9023EFB814EB6AC000D85E8D /* MapKit.framework */,
+				9023EFB614EB6AB000D85E8D /* icon@2x.png */,
+				9023EFB414EB6AAD00D85E8D /* icon.png */,
+				9023EFB214EB6AA800D85E8D /* Default@2x.png */,
+				9023EFB014EB6AA400D85E8D /* Default.png */,
 				90119CD714EB66C900AA1597 /* Walky */,
 				90119D0014EB66CA00AA1597 /* WalkyTests */,
 				90119CD014EB66C900AA1597 /* Frameworks */,
@@ -122,6 +142,8 @@
 		90119CD714EB66C900AA1597 /* Walky */ = {
 			isa = PBXGroup;
 			children = (
+				90119D1114EB696800AA1597 /* radar.png */,
+				90119D1214EB696800AA1597 /* route.png */,
 				90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */,
 				90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */,
 				90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */,
@@ -244,6 +266,12 @@
 				90119CEC14EB66CA00AA1597 /* first@2x.png in Resources */,
 				90119CF114EB66CA00AA1597 /* second.png in Resources */,
 				90119CF314EB66CA00AA1597 /* second@2x.png in Resources */,
+				90119D1314EB696800AA1597 /* radar.png in Resources */,
+				90119D1414EB696800AA1597 /* route.png in Resources */,
+				9023EFB114EB6AA400D85E8D /* Default.png in Resources */,
+				9023EFB314EB6AA800D85E8D /* Default@2x.png in Resources */,
+				9023EFB514EB6AAD00D85E8D /* icon.png in Resources */,
+				9023EFB714EB6AB000D85E8D /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +479,7 @@
 				90119D0D14EB66CA00AA1597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90119D0E14EB66CA00AA1597 /* Build configuration list for PBXNativeTarget "WalkyTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +488,7 @@
 				90119D1014EB66CA00AA1597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

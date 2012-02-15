@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90119CD214EB66C900AA1597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD114EB66C900AA1597 /* UIKit.framework */; };
+		90119CD414EB66C900AA1597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD314EB66C900AA1597 /* Foundation.framework */; };
+		90119CD614EB66C900AA1597 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD514EB66C900AA1597 /* CoreGraphics.framework */; };
+		90119CDC14EB66CA00AA1597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90119CDA14EB66CA00AA1597 /* InfoPlist.strings */; };
+		90119CDE14EB66CA00AA1597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CDD14EB66CA00AA1597 /* main.m */; };
+		90119CE214EB66CA00AA1597 /* WalkyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */; };
+		90119CE514EB66CA00AA1597 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */; };
+		90119CE814EB66CA00AA1597 /* WalkyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */; };
+		90119CEA14EB66CA00AA1597 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CE914EB66CA00AA1597 /* first.png */; };
+		90119CEC14EB66CA00AA1597 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CEB14EB66CA00AA1597 /* first@2x.png */; };
+		90119CEF14EB66CA00AA1597 /* WalkySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */; };
+		90119CF114EB66CA00AA1597 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CF014EB66CA00AA1597 /* second.png */; };
+		90119CF314EB66CA00AA1597 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CF214EB66CA00AA1597 /* second@2x.png */; };
+		90119CFB14EB66CA00AA1597 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */; };
+		90119CFC14EB66CA00AA1597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD114EB66C900AA1597 /* UIKit.framework */; };
+		90119CFD14EB66CA00AA1597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD314EB66C900AA1597 /* Foundation.framework */; };
+		90119D0514EB66CA00AA1597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90119D0314EB66CA00AA1597 /* InfoPlist.strings */; };
+		90119D0814EB66CA00AA1597 /* WalkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119D0714EB66CA00AA1597 /* WalkyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90119CFE14EB66CA00AA1597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90119CC414EB66C900AA1597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90119CCC14EB66C900AA1597;
+			remoteInfo = Walky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90119CCD14EB66C900AA1597 /* Walky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90119CD114EB66C900AA1597 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90119CD314EB66C900AA1597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90119CD514EB66C900AA1597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90119CD914EB66C900AA1597 /* Walky-Info.plist */ = {isa = PBXFileReference; path = "Walky-Info.plist"; sourceTree = "<group>"; };
+		90119CDB14EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90119CDD14EB66CA00AA1597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90119CDF14EB66CA00AA1597 /* Walky-Prefix.pch */ = {isa = PBXFileReference; path = "Walky-Prefix.pch"; sourceTree = "<group>"; };
+		90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */ = {isa = PBXFileReference; path = WalkyAppDelegate.h; sourceTree = "<group>"; };
+		90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyAppDelegate.m; sourceTree = "<group>"; };
+		90119CE414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */ = {isa = PBXFileReference; path = WalkyFirstViewController.h; sourceTree = "<group>"; };
+		90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyFirstViewController.m; sourceTree = "<group>"; };
+		90119CE914EB66CA00AA1597 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		90119CEB14EB66CA00AA1597 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */ = {isa = PBXFileReference; path = WalkySecondViewController.h; sourceTree = "<group>"; };
+		90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkySecondViewController.m; sourceTree = "<group>"; };
+		90119CF014EB66CA00AA1597 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		90119CF214EB66CA00AA1597 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		90119CF914EB66CA00AA1597 /* WalkyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		90119D0214EB66CA00AA1597 /* WalkyTests-Info.plist */ = {isa = PBXFileReference; path = "WalkyTests-Info.plist"; sourceTree = "<group>"; };
+		90119D0414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90119D0614EB66CA00AA1597 /* WalkyTests.h */ = {isa = PBXFileReference; path = WalkyTests.h; sourceTree = "<group>"; };
+		90119D0714EB66CA00AA1597 /* WalkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90119CCA14EB66C900AA1597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119CD214EB66C900AA1597 /* UIKit.framework in Frameworks */,
+				90119CD414EB66C900AA1597 /* Foundation.framework in Frameworks */,
+				90119CD614EB66C900AA1597 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119CF514EB66CA00AA1597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119CFB14EB66CA00AA1597 /* SenTestingKit.framework in Frameworks */,
+				90119CFC14EB66CA00AA1597 /* UIKit.framework in Frameworks */,
+				90119CFD14EB66CA00AA1597 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90119CC214EB66C900AA1597 = {
+			isa = PBXGroup;
+			children = (
+				90119CD714EB66C900AA1597 /* Walky */,
+				90119D0014EB66CA00AA1597 /* WalkyTests */,
+				90119CD014EB66C900AA1597 /* Frameworks */,
+				90119CCE14EB66C900AA1597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90119CCE14EB66C900AA1597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90119CCD14EB66C900AA1597 /* Walky.app */,
+				90119CF914EB66CA00AA1597 /* WalkyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90119CD014EB66C900AA1597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90119CD114EB66C900AA1597 /* UIKit.framework */,
+				90119CD314EB66C900AA1597 /* Foundation.framework */,
+				90119CD514EB66C900AA1597 /* CoreGraphics.framework */,
+				90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90119CD714EB66C900AA1597 /* Walky */ = {
+			isa = PBXGroup;
+			children = (
+				90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */,
+				90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */,
+				90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */,
+				90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */,
+				90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */,
+				90119CE914EB66CA00AA1597 /* first.png */,
+				90119CEB14EB66CA00AA1597 /* first@2x.png */,
+				90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */,
+				90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */,
+				90119CF014EB66CA00AA1597 /* second.png */,
+				90119CF214EB66CA00AA1597 /* second@2x.png */,
+				90119CD814EB66C900AA1597 /* Supporting Files */,
+			);
+			path = Walky;
+			sourceTree = "<group>";
+		};
+		90119CD814EB66C900AA1597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90119CD914EB66C900AA1597 /* Walky-Info.plist */,
+				90119CDA14EB66CA00AA1597 /* InfoPlist.strings */,
+				90119CDD14EB66CA00AA1597 /* main.m */,
+				90119CDF14EB66CA00AA1597 /* Walky-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90119D0014EB66CA00AA1597 /* WalkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				90119D0614EB66CA00AA1597 /* WalkyTests.h */,
+				90119D0714EB66CA00AA1597 /* WalkyTests.m */,
+				90119D0114EB66CA00AA1597 /* Supporting Files */,
+			);
+			path = WalkyTests;
+			sourceTree = "<group>";
+		};
+		90119D0114EB66CA00AA1597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90119D0214EB66CA00AA1597 /* WalkyTests-Info.plist */,
+				90119D0314EB66CA00AA1597 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90119CCC14EB66C900AA1597 /* Walky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90119D0B14EB66CA00AA1597 /* Build configuration list for PBXNativeTarget "Walky" */;
+			buildPhases = (
+				90119CC914EB66C900AA1597 /* Sources */,
+				90119CCA14EB66C900AA1597 /* Frameworks */,
+				90119CCB14EB66C900AA1597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Walky;
+			productName = Walky;
+			productReference = 90119CCD14EB66C900AA1597 /* Walky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90119CF814EB66CA00AA1597 /* WalkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90119D0E14EB66CA00AA1597 /* Build configuration list for PBXNativeTarget "WalkyTests" */;
+			buildPhases = (
+				90119CF414EB66CA00AA1597 /* Sources */,
+				90119CF514EB66CA00AA1597 /* Frameworks */,
+				90119CF614EB66CA00AA1597 /* Resources */,
+				90119CF714EB66CA00AA1597 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90119CFF14EB66CA00AA1597 /* PBXTargetDependency */,
+			);
+			name = WalkyTests;
+			productName = WalkyTests;
+			productReference = 90119CF914EB66CA00AA1597 /* WalkyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90119CC414EB66C900AA1597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 90119CC714EB66C900AA1597 /* Build configuration list for PBXProject "Walky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90119CC214EB66C900AA1597;
+			productRefGroup = 90119CCE14EB66C900AA1597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90119CCC14EB66C900AA1597 /* Walky */,
+				90119CF814EB66CA00AA1597 /* WalkyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90119CCB14EB66C900AA1597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119CDC14EB66CA00AA1597 /* InfoPlist.strings in Resources */,
+				90119CE514EB66CA00AA1597 /* MainStoryboard.storyboard in Resources */,
+				90119CEA14EB66CA00AA1597 /* first.png in Resources */,
+				90119CEC14EB66CA00AA1597 /* first@2x.png in Resources */,
+				90119CF114EB66CA00AA1597 /* second.png in Resources */,
+				90119CF314EB66CA00AA1597 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119CF614EB66CA00AA1597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119D0514EB66CA00AA1597 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90119CF714EB66CA00AA1597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90119CC914EB66C900AA1597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119CDE14EB66CA00AA1597 /* main.m in Sources */,
+				90119CE214EB66CA00AA1597 /* WalkyAppDelegate.m in Sources */,
+				90119CE814EB66CA00AA1597 /* WalkyFirstViewController.m in Sources */,
+				90119CEF14EB66CA00AA1597 /* WalkySecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119CF414EB66CA00AA1597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119D0814EB66CA00AA1597 /* WalkyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90119CFF14EB66CA00AA1597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90119CCC14EB66C900AA1597 /* Walky */;
+			targetProxy = 90119CFE14EB66CA00AA1597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90119CDA14EB66CA00AA1597 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90119CDB14EB66CA00AA1597 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90119CE414EB66CA00AA1597 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		90119D0314EB66CA00AA1597 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90119D0414EB66CA00AA1597 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90119D0914EB66CA00AA1597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90119D0A14EB66CA00AA1597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90119D0C14EB66CA00AA1597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
+				INFOPLIST_FILE = "Walky/Walky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90119D0D14EB66CA00AA1597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
+				INFOPLIST_FILE = "Walky/Walky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90119D0F14EB66CA00AA1597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Walky.app/Walky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
+				INFOPLIST_FILE = "WalkyTests/WalkyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		90119D1014EB66CA00AA1597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Walky.app/Walky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
+				INFOPLIST_FILE = "WalkyTests/WalkyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90119CC714EB66C900AA1597 /* Build configuration list for PBXProject "Walky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90119D0914EB66CA00AA1597 /* Debug */,
+				90119D0A14EB66CA00AA1597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90119D0B14EB66CA00AA1597 /* Build configuration list for PBXNativeTarget "Walky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90119D0C14EB66CA00AA1597 /* Debug */,
+				90119D0D14EB66CA00AA1597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90119D0E14EB66CA00AA1597 /* Build configuration list for PBXNativeTarget "WalkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90119D0F14EB66CA00AA1597 /* Debug */,
+				90119D1014EB66CA00AA1597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90119CC414EB66C900AA1597 /* Project object */;
+}

@@ -15,23 +15,22 @@
 		90119CE214EB66CA00AA1597 /* WalkyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */; };
 		90119CE514EB66CA00AA1597 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */; };
 		90119CE814EB66CA00AA1597 /* WalkyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */; };
-		90119CEA14EB66CA00AA1597 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CE914EB66CA00AA1597 /* first.png */; };
-		90119CEC14EB66CA00AA1597 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CEB14EB66CA00AA1597 /* first@2x.png */; };
 		90119CEF14EB66CA00AA1597 /* WalkySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */; };
-		90119CF114EB66CA00AA1597 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CF014EB66CA00AA1597 /* second.png */; };
-		90119CF314EB66CA00AA1597 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119CF214EB66CA00AA1597 /* second@2x.png */; };
 		90119CFB14EB66CA00AA1597 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */; };
 		90119CFC14EB66CA00AA1597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD114EB66C900AA1597 /* UIKit.framework */; };
 		90119CFD14EB66CA00AA1597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD314EB66C900AA1597 /* Foundation.framework */; };
 		90119D0514EB66CA00AA1597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90119D0314EB66CA00AA1597 /* InfoPlist.strings */; };
 		90119D0814EB66CA00AA1597 /* WalkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119D0714EB66CA00AA1597 /* WalkyTests.m */; };
-		90119D1314EB696800AA1597 /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119D1114EB696800AA1597 /* radar.png */; };
-		90119D1414EB696800AA1597 /* route.png in Resources */ = {isa = PBXBuildFile; fileRef = 90119D1214EB696800AA1597 /* route.png */; };
-		9023EFB114EB6AA400D85E8D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB014EB6AA400D85E8D /* Default.png */; };
-		9023EFB314EB6AA800D85E8D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB214EB6AA800D85E8D /* Default@2x.png */; };
-		9023EFB514EB6AAD00D85E8D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB414EB6AAD00D85E8D /* icon.png */; };
-		9023EFB714EB6AB000D85E8D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9023EFB614EB6AB000D85E8D /* icon@2x.png */; };
 		9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9023EFB814EB6AC000D85E8D /* MapKit.framework */; };
+		902F015714EC71EB002E291C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902F015614EC71EB002E291C /* CoreLocation.framework */; };
+		90A659B514EC98E400160C37 /* WalkyCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A659B414EC98E400160C37 /* WalkyCoreLocationController.m */; };
+		90A6DC8814EC341200BF7B1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8714EC341200BF7B1A /* Default.png */; };
+		90A6DC8B14EC345600BF7B1A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8A14EC345600BF7B1A /* icon.png */; };
+		90A6DC8D14EC345D00BF7B1A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8C14EC345D00BF7B1A /* icon@2x.png */; };
+		90A6DC8F14EC346800BF7B1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8E14EC346800BF7B1A /* Default@2x.png */; };
+		90A6DC9214EC349D00BF7B1A /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC9014EC349D00BF7B1A /* radar.png */; };
+		90A6DC9314EC349D00BF7B1A /* route.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC9114EC349D00BF7B1A /* route.png */; };
+		90B6ABDC14EDECE300897E33 /* WalkyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B6ABDB14EDECE300897E33 /* WalkyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,25 +57,26 @@
 		90119CE414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyFirstViewController.h; sourceTree = "<group>"; };
 		90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyFirstViewController.m; sourceTree = "<group>"; };
-		90119CE914EB66CA00AA1597 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		90119CEB14EB66CA00AA1597 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkySecondViewController.h; sourceTree = "<group>"; };
 		90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkySecondViewController.m; sourceTree = "<group>"; };
-		90119CF014EB66CA00AA1597 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		90119CF214EB66CA00AA1597 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		90119CF914EB66CA00AA1597 /* WalkyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		90119D0214EB66CA00AA1597 /* WalkyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalkyTests-Info.plist"; sourceTree = "<group>"; };
 		90119D0414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90119D0614EB66CA00AA1597 /* WalkyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyTests.h; sourceTree = "<group>"; };
 		90119D0714EB66CA00AA1597 /* WalkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyTests.m; sourceTree = "<group>"; };
-		90119D1114EB696800AA1597 /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radar.png; path = ../radar.png; sourceTree = "<group>"; };
-		90119D1214EB696800AA1597 /* route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = route.png; path = ../route.png; sourceTree = "<group>"; };
-		9023EFB014EB6AA400D85E8D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		9023EFB214EB6AA800D85E8D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9023EFB414EB6AAD00D85E8D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		9023EFB614EB6AB000D85E8D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		9023EFB814EB6AC000D85E8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		902F015614EC71EB002E291C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		90A659B314EC98E400160C37 /* WalkyCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkyCoreLocationController.h; sourceTree = "<group>"; };
+		90A659B414EC98E400160C37 /* WalkyCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkyCoreLocationController.m; sourceTree = "<group>"; };
+		90A6DC8714EC341200BF7B1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		90A6DC8A14EC345600BF7B1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		90A6DC8C14EC345D00BF7B1A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		90A6DC8E14EC346800BF7B1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		90A6DC9014EC349D00BF7B1A /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radar.png; path = images/radar.png; sourceTree = "<group>"; };
+		90A6DC9114EC349D00BF7B1A /* route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = route.png; path = images/route.png; sourceTree = "<group>"; };
+		90B6ABDA14EDECE300897E33 /* WalkyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkyManager.h; sourceTree = "<group>"; };
+		90B6ABDB14EDECE300897E33 /* WalkyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902F015714EC71EB002E291C /* CoreLocation.framework in Frameworks */,
 				9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */,
 				90119CD214EB66C900AA1597 /* UIKit.framework in Frameworks */,
 				90119CD414EB66C900AA1597 /* Foundation.framework in Frameworks */,
@@ -107,11 +108,6 @@
 		90119CC214EB66C900AA1597 = {
 			isa = PBXGroup;
 			children = (
-				9023EFB814EB6AC000D85E8D /* MapKit.framework */,
-				9023EFB614EB6AB000D85E8D /* icon@2x.png */,
-				9023EFB414EB6AAD00D85E8D /* icon.png */,
-				9023EFB214EB6AA800D85E8D /* Default@2x.png */,
-				9023EFB014EB6AA400D85E8D /* Default.png */,
 				90119CD714EB66C900AA1597 /* Walky */,
 				90119D0014EB66CA00AA1597 /* WalkyTests */,
 				90119CD014EB66C900AA1597 /* Frameworks */,
@@ -131,6 +127,8 @@
 		90119CD014EB66C900AA1597 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				902F015614EC71EB002E291C /* CoreLocation.framework */,
+				9023EFB814EB6AC000D85E8D /* MapKit.framework */,
 				90119CD114EB66C900AA1597 /* UIKit.framework */,
 				90119CD314EB66C900AA1597 /* Foundation.framework */,
 				90119CD514EB66C900AA1597 /* CoreGraphics.framework */,
@@ -142,19 +140,18 @@
 		90119CD714EB66C900AA1597 /* Walky */ = {
 			isa = PBXGroup;
 			children = (
-				90119D1114EB696800AA1597 /* radar.png */,
-				90119D1214EB696800AA1597 /* route.png */,
+				90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */,
+				90A6DC8914EC343C00BF7B1A /* images */,
+				90B6ABDA14EDECE300897E33 /* WalkyManager.h */,
+				90B6ABDB14EDECE300897E33 /* WalkyManager.m */,
+				90A659B314EC98E400160C37 /* WalkyCoreLocationController.h */,
+				90A659B414EC98E400160C37 /* WalkyCoreLocationController.m */,
 				90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */,
 				90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */,
-				90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */,
 				90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */,
 				90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */,
-				90119CE914EB66CA00AA1597 /* first.png */,
-				90119CEB14EB66CA00AA1597 /* first@2x.png */,
 				90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */,
 				90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */,
-				90119CF014EB66CA00AA1597 /* second.png */,
-				90119CF214EB66CA00AA1597 /* second@2x.png */,
 				90119CD814EB66C900AA1597 /* Supporting Files */,
 			);
 			path = Walky;
@@ -188,6 +185,19 @@
 				90119D0314EB66CA00AA1597 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90A6DC8914EC343C00BF7B1A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90A6DC9014EC349D00BF7B1A /* radar.png */,
+				90A6DC9114EC349D00BF7B1A /* route.png */,
+				90A6DC8E14EC346800BF7B1A /* Default@2x.png */,
+				90A6DC8C14EC345D00BF7B1A /* icon@2x.png */,
+				90A6DC8A14EC345600BF7B1A /* icon.png */,
+				90A6DC8714EC341200BF7B1A /* Default.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +245,8 @@
 		90119CC414EB66C900AA1597 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Walky.me;
 			};
 			buildConfigurationList = 90119CC714EB66C900AA1597 /* Build configuration list for PBXProject "Walky" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -262,16 +273,12 @@
 			files = (
 				90119CDC14EB66CA00AA1597 /* InfoPlist.strings in Resources */,
 				90119CE514EB66CA00AA1597 /* MainStoryboard.storyboard in Resources */,
-				90119CEA14EB66CA00AA1597 /* first.png in Resources */,
-				90119CEC14EB66CA00AA1597 /* first@2x.png in Resources */,
-				90119CF114EB66CA00AA1597 /* second.png in Resources */,
-				90119CF314EB66CA00AA1597 /* second@2x.png in Resources */,
-				90119D1314EB696800AA1597 /* radar.png in Resources */,
-				90119D1414EB696800AA1597 /* route.png in Resources */,
-				9023EFB114EB6AA400D85E8D /* Default.png in Resources */,
-				9023EFB314EB6AA800D85E8D /* Default@2x.png in Resources */,
-				9023EFB514EB6AAD00D85E8D /* icon.png in Resources */,
-				9023EFB714EB6AB000D85E8D /* icon@2x.png in Resources */,
+				90A6DC8814EC341200BF7B1A /* Default.png in Resources */,
+				90A6DC8B14EC345600BF7B1A /* icon.png in Resources */,
+				90A6DC8D14EC345D00BF7B1A /* icon@2x.png in Resources */,
+				90A6DC8F14EC346800BF7B1A /* Default@2x.png in Resources */,
+				90A6DC9214EC349D00BF7B1A /* radar.png in Resources */,
+				90A6DC9314EC349D00BF7B1A /* route.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +317,8 @@
 				90119CE214EB66CA00AA1597 /* WalkyAppDelegate.m in Sources */,
 				90119CE814EB66CA00AA1597 /* WalkyFirstViewController.m in Sources */,
 				90119CEF14EB66CA00AA1597 /* WalkySecondViewController.m in Sources */,
+				90A659B514EC98E400160C37 /* WalkyCoreLocationController.m in Sources */,
+				90B6ABDC14EDECE300897E33 /* WalkyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

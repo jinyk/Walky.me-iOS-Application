@@ -17,10 +17,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="411"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rPF-VY-3aA">
+                                <rect key="frame" x="278" y="14" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="@">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="locateMeButton:" destination="2" eventType="touchUpInside" id="9gP-lu-qhC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Near By" image="radar.png" id="7"/>
+                    <connections>
+                        <outlet property="nearByMap" destination="zoH-vB-JcO" id="Q3T-Sp-RJd"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
@@ -38,7 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="UD9-Yv-wZj">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="31"/>
+                                <rect key="frame" x="5" y="5" width="311" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -77,6 +95,10 @@
     <classes>
         <class className="WalkyFirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WalkyFirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="locateMeButton:"/>
+                <relationship kind="outlet" name="nearByMap" candidateClass="MKMapView"/>
+            </relationships>
         </class>
         <class className="WalkySecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WalkySecondViewController.h"/>

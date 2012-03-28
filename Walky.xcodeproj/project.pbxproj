@@ -14,8 +14,7 @@
 		90119CDE14EB66CA00AA1597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CDD14EB66CA00AA1597 /* main.m */; };
 		90119CE214EB66CA00AA1597 /* WalkyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */; };
 		90119CE514EB66CA00AA1597 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90119CE314EB66CA00AA1597 /* MainStoryboard.storyboard */; };
-		90119CE814EB66CA00AA1597 /* WalkyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */; };
-		90119CEF14EB66CA00AA1597 /* WalkySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */; };
+		90119CE814EB66CA00AA1597 /* WalkyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119CE714EB66CA00AA1597 /* WalkyViewController.m */; };
 		90119CFB14EB66CA00AA1597 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */; };
 		90119CFC14EB66CA00AA1597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD114EB66C900AA1597 /* UIKit.framework */; };
 		90119CFD14EB66CA00AA1597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90119CD314EB66C900AA1597 /* Foundation.framework */; };
@@ -23,7 +22,15 @@
 		90119D0814EB66CA00AA1597 /* WalkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90119D0714EB66CA00AA1597 /* WalkyTests.m */; };
 		9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9023EFB814EB6AC000D85E8D /* MapKit.framework */; };
 		902F015714EC71EB002E291C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902F015614EC71EB002E291C /* CoreLocation.framework */; };
-		90A659B514EC98E400160C37 /* WalkyCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A659B414EC98E400160C37 /* WalkyCoreLocationController.m */; };
+		9042D7B41522771100B10F70 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042D7B31522771000B10F70 /* QuartzCore.framework */; };
+		9042D7BD152279E800B10F70 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7BA152279E800B10F70 /* SVProgressHUD.bundle */; };
+		9042D7BE152279E800B10F70 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7BA152279E800B10F70 /* SVProgressHUD.bundle */; };
+		9042D7BF152279E800B10F70 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9042D7BC152279E800B10F70 /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9042D7C0152279E800B10F70 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9042D7BC152279E800B10F70 /* SVProgressHUD.m */; };
+		9042D7C315228E7D00B10F70 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C215228E7D00B10F70 /* location.png */; };
+		9042D7C415228E7D00B10F70 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C215228E7D00B10F70 /* location.png */; };
+		9042D7C615228FCC00B10F70 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C515228FCC00B10F70 /* location@2x.png */; };
+		9042D7C715228FCC00B10F70 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C515228FCC00B10F70 /* location@2x.png */; };
 		90A6DC8814EC341200BF7B1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8714EC341200BF7B1A /* Default.png */; };
 		90A6DC8B14EC345600BF7B1A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8A14EC345600BF7B1A /* icon.png */; };
 		90A6DC8D14EC345D00BF7B1A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8C14EC345D00BF7B1A /* icon@2x.png */; };
@@ -55,10 +62,8 @@
 		90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyAppDelegate.h; sourceTree = "<group>"; };
 		90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyAppDelegate.m; sourceTree = "<group>"; };
 		90119CE414EB66CA00AA1597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyFirstViewController.h; sourceTree = "<group>"; };
-		90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyFirstViewController.m; sourceTree = "<group>"; };
-		90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkySecondViewController.h; sourceTree = "<group>"; };
-		90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkySecondViewController.m; sourceTree = "<group>"; };
+		90119CE614EB66CA00AA1597 /* WalkyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkyViewController.h; sourceTree = "<group>"; };
+		90119CE714EB66CA00AA1597 /* WalkyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyViewController.m; sourceTree = "<group>"; };
 		90119CF914EB66CA00AA1597 /* WalkyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90119CFA14EB66CA00AA1597 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		90119D0214EB66CA00AA1597 /* WalkyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalkyTests-Info.plist"; sourceTree = "<group>"; };
@@ -67,8 +72,12 @@
 		90119D0714EB66CA00AA1597 /* WalkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkyTests.m; sourceTree = "<group>"; };
 		9023EFB814EB6AC000D85E8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		902F015614EC71EB002E291C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		90A659B314EC98E400160C37 /* WalkyCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkyCoreLocationController.h; sourceTree = "<group>"; };
-		90A659B414EC98E400160C37 /* WalkyCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkyCoreLocationController.m; sourceTree = "<group>"; };
+		9042D7B31522771000B10F70 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9042D7BA152279E800B10F70 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9042D7BB152279E800B10F70 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9042D7BC152279E800B10F70 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9042D7C215228E7D00B10F70 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = images/location.png; sourceTree = "<group>"; };
+		9042D7C515228FCC00B10F70 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "images/location@2x.png"; sourceTree = "<group>"; };
 		90A6DC8714EC341200BF7B1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		90A6DC8A14EC345600BF7B1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		90A6DC8C14EC345D00BF7B1A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
@@ -84,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9042D7B41522771100B10F70 /* QuartzCore.framework in Frameworks */,
 				902F015714EC71EB002E291C /* CoreLocation.framework in Frameworks */,
 				9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */,
 				90119CD214EB66C900AA1597 /* UIKit.framework in Frameworks */,
@@ -110,6 +120,7 @@
 			children = (
 				90119CD714EB66C900AA1597 /* Walky */,
 				90119D0014EB66CA00AA1597 /* WalkyTests */,
+				9042D7C1152279F600B10F70 /* Vendor */,
 				90119CD014EB66C900AA1597 /* Frameworks */,
 				90119CCE14EB66C900AA1597 /* Products */,
 			);
@@ -127,6 +138,7 @@
 		90119CD014EB66C900AA1597 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9042D7B31522771000B10F70 /* QuartzCore.framework */,
 				902F015614EC71EB002E291C /* CoreLocation.framework */,
 				9023EFB814EB6AC000D85E8D /* MapKit.framework */,
 				90119CD114EB66C900AA1597 /* UIKit.framework */,
@@ -144,14 +156,10 @@
 				90A6DC8914EC343C00BF7B1A /* images */,
 				90B6ABDA14EDECE300897E33 /* WalkyManager.h */,
 				90B6ABDB14EDECE300897E33 /* WalkyManager.m */,
-				90A659B314EC98E400160C37 /* WalkyCoreLocationController.h */,
-				90A659B414EC98E400160C37 /* WalkyCoreLocationController.m */,
 				90119CE014EB66CA00AA1597 /* WalkyAppDelegate.h */,
 				90119CE114EB66CA00AA1597 /* WalkyAppDelegate.m */,
-				90119CE614EB66CA00AA1597 /* WalkyFirstViewController.h */,
-				90119CE714EB66CA00AA1597 /* WalkyFirstViewController.m */,
-				90119CED14EB66CA00AA1597 /* WalkySecondViewController.h */,
-				90119CEE14EB66CA00AA1597 /* WalkySecondViewController.m */,
+				90119CE614EB66CA00AA1597 /* WalkyViewController.h */,
+				90119CE714EB66CA00AA1597 /* WalkyViewController.m */,
 				90119CD814EB66C900AA1597 /* Supporting Files */,
 			);
 			path = Walky;
@@ -187,9 +195,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9042D7B9152279E700B10F70 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9042D7BA152279E800B10F70 /* SVProgressHUD.bundle */,
+				9042D7BB152279E800B10F70 /* SVProgressHUD.h */,
+				9042D7BC152279E800B10F70 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		9042D7C1152279F600B10F70 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9042D7B9152279E700B10F70 /* SVProgressHUD */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 		90A6DC8914EC343C00BF7B1A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9042D7C215228E7D00B10F70 /* location.png */,
+				9042D7C515228FCC00B10F70 /* location@2x.png */,
 				90A6DC9014EC349D00BF7B1A /* radar.png */,
 				90A6DC9114EC349D00BF7B1A /* route.png */,
 				90A6DC8E14EC346800BF7B1A /* Default@2x.png */,
@@ -279,6 +307,9 @@
 				90A6DC8F14EC346800BF7B1A /* Default@2x.png in Resources */,
 				90A6DC9214EC349D00BF7B1A /* radar.png in Resources */,
 				90A6DC9314EC349D00BF7B1A /* route.png in Resources */,
+				9042D7BD152279E800B10F70 /* SVProgressHUD.bundle in Resources */,
+				9042D7C315228E7D00B10F70 /* location.png in Resources */,
+				9042D7C615228FCC00B10F70 /* location@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90119D0514EB66CA00AA1597 /* InfoPlist.strings in Resources */,
+				9042D7BE152279E800B10F70 /* SVProgressHUD.bundle in Resources */,
+				9042D7C415228E7D00B10F70 /* location.png in Resources */,
+				9042D7C715228FCC00B10F70 /* location@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +349,9 @@
 			files = (
 				90119CDE14EB66CA00AA1597 /* main.m in Sources */,
 				90119CE214EB66CA00AA1597 /* WalkyAppDelegate.m in Sources */,
-				90119CE814EB66CA00AA1597 /* WalkyFirstViewController.m in Sources */,
-				90119CEF14EB66CA00AA1597 /* WalkySecondViewController.m in Sources */,
-				90A659B514EC98E400160C37 /* WalkyCoreLocationController.m in Sources */,
+				90119CE814EB66CA00AA1597 /* WalkyViewController.m in Sources */,
 				90B6ABDC14EDECE300897E33 /* WalkyManager.m in Sources */,
+				9042D7BF152279E800B10F70 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90119D0814EB66CA00AA1597 /* WalkyTests.m in Sources */,
+				9042D7C0152279E800B10F70 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +450,15 @@
 		90119D0C14EB66CA00AA1597 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinyoung Kim (RM2647GG8U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinyoung Kim (RM2647GG8U)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
 				INFOPLIST_FILE = "Walky/Walky-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07360532-A660-44CB-836E-4853C290EFFC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07360532-A660-44CB-836E-4853C290EFFC";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -427,10 +466,15 @@
 		90119D0D14EB66CA00AA1597 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinyoung Kim (RM2647GG8U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinyoung Kim (RM2647GG8U)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
 				INFOPLIST_FILE = "Walky/Walky-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07360532-A660-44CB-836E-4853C290EFFC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07360532-A660-44CB-836E-4853C290EFFC";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

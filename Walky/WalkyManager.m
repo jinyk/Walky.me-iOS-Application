@@ -12,10 +12,11 @@ static WalkyManager *sharedWalkyManager = nil;
 
 @implementation WalkyManager
 
-@synthesize CLController = _CLController;
-@synthesize location = _location;
+@synthesize location;
+@synthesize locationManager;
+@synthesize hasDeterminedLocation;
 
-+ (id)sharedManager {
++ (WalkyManager *)sharedManager {
     @synchronized(self) {
         if (sharedWalkyManager == nil) {
             sharedWalkyManager = [[self alloc] init];
@@ -26,22 +27,30 @@ static WalkyManager *sharedWalkyManager = nil;
 
 - (id)init {
     if (self = [super init]) {
-        NSLog(@"Manager Init");
         self.location = nil;
-        self.CLController = [[WalkyCoreLocationController alloc] init];
-        self.CLController.delegate = self;
-        [self.CLController.locMgr startUpdatingLocation];
+		self.locationManager = [[CLLocationManager alloc] init];
+        self.locationManager.delegate = self;
+        self.hasDeterminedLocation = NO;
     }
     return self;
 }
 
-- (void)locationUpdate:(CLLocation *)location {
-    self.location = location;
-    NSLog(@"Got me a location update.");
+- (void)stopLocationManager {
+    [self.locationManager stopUpdatingLocation];
+    self.hasDeterminedLocation = NO;
 }
 
-- (void)locationError:(NSError *)error {
-	self.location = nil;
+#pragma mark - CLLocationManagerDelegate
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+	self.location = newLocation;
+    self.hasDeterminedLocation = YES;
+}
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+    NSLog(@"locationManager:didFailWithError: %@", error);
+    self.location = nil;
+    self.hasDeterminedLocation = YES;
 }
 
 @end

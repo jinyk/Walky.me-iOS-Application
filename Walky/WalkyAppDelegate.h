@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WalkyManager.h"
 
-@interface WalkyAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WalkyAppDelegate : UIResponder <UIApplicationDelegate> {
+    WalkyManager *_sharedManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

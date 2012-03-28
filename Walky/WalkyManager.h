@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WalkyCoreLocationController.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface WalkyManager : NSObject <WalkyCoreLocationControllerDelegate>
+@interface WalkyManager : NSObject <CLLocationManagerDelegate>
 
-@property (strong, nonatomic) WalkyCoreLocationController *CLController;
+@property BOOL hasDeterminedLocation;
 @property (strong, nonatomic) CLLocation *location;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
-+ (id)sharedManager;
++ (WalkyManager *)sharedManager;
+- (void)stopLocationManager;
 
 @end

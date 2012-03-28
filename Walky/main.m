@@ -8,13 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "WalkyAppDelegate.h"
-#import "WalkyManager.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     @autoreleasepool {
-        WalkyManager *sharedManager = [WalkyManager sharedManager];
-
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([WalkyAppDelegate class]));
     }
 }

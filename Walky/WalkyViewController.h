@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface WalkyFirstViewController : UIViewController
+@interface WalkyViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet MKMapView *nearByMap;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 - (IBAction)locateMeButton:(id)sender;
+- (IBAction)addMarker:(UILongPressGestureRecognizer *)sender;
 
 @end

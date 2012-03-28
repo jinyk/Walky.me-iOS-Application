@@ -15,6 +15,7 @@
 #pragma mark - app lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [TestFlight takeOff:@"Insert your Team Token here"];
     _sharedManager = [WalkyManager sharedManager];
     return YES;
 }

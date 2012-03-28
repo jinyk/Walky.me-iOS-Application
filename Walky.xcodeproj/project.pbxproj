@@ -31,6 +31,14 @@
 		9042D7C415228E7D00B10F70 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C215228E7D00B10F70 /* location.png */; };
 		9042D7C615228FCC00B10F70 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C515228FCC00B10F70 /* location@2x.png */; };
 		9042D7C715228FCC00B10F70 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7C515228FCC00B10F70 /* location@2x.png */; };
+		9042D7CD152299B500B10F70 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042D7C9152299B500B10F70 /* libTestFlight.a */; };
+		9042D7CE152299B500B10F70 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042D7C9152299B500B10F70 /* libTestFlight.a */; };
+		9042D7CF152299B500B10F70 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7CA152299B500B10F70 /* README.txt */; };
+		9042D7D0152299B500B10F70 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7CA152299B500B10F70 /* README.txt */; };
+		9042D7D1152299B500B10F70 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7CB152299B500B10F70 /* release_notes.txt */; };
+		9042D7D2152299B500B10F70 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9042D7CB152299B500B10F70 /* release_notes.txt */; };
+		9042D7D415229A2F00B10F70 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042D7D315229A2F00B10F70 /* libz.dylib */; };
+		9042D7D515229A3D00B10F70 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042D7D315229A2F00B10F70 /* libz.dylib */; };
 		90A6DC8814EC341200BF7B1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8714EC341200BF7B1A /* Default.png */; };
 		90A6DC8B14EC345600BF7B1A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8A14EC345600BF7B1A /* icon.png */; };
 		90A6DC8D14EC345D00BF7B1A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A6DC8C14EC345D00BF7B1A /* icon@2x.png */; };
@@ -78,6 +86,11 @@
 		9042D7BC152279E800B10F70 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		9042D7C215228E7D00B10F70 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = images/location.png; sourceTree = "<group>"; };
 		9042D7C515228FCC00B10F70 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "images/location@2x.png"; sourceTree = "<group>"; };
+		9042D7C9152299B500B10F70 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		9042D7CA152299B500B10F70 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		9042D7CB152299B500B10F70 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		9042D7CC152299B500B10F70 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		9042D7D315229A2F00B10F70 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		90A6DC8714EC341200BF7B1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		90A6DC8A14EC345600BF7B1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		90A6DC8C14EC345D00BF7B1A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
@@ -93,12 +106,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9042D7D415229A2F00B10F70 /* libz.dylib in Frameworks */,
 				9042D7B41522771100B10F70 /* QuartzCore.framework in Frameworks */,
 				902F015714EC71EB002E291C /* CoreLocation.framework in Frameworks */,
 				9023EFB914EB6AC000D85E8D /* MapKit.framework in Frameworks */,
 				90119CD214EB66C900AA1597 /* UIKit.framework in Frameworks */,
 				90119CD414EB66C900AA1597 /* Foundation.framework in Frameworks */,
 				90119CD614EB66C900AA1597 /* CoreGraphics.framework in Frameworks */,
+				9042D7CD152299B500B10F70 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +121,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9042D7D515229A3D00B10F70 /* libz.dylib in Frameworks */,
 				90119CFB14EB66CA00AA1597 /* SenTestingKit.framework in Frameworks */,
 				90119CFC14EB66CA00AA1597 /* UIKit.framework in Frameworks */,
 				90119CFD14EB66CA00AA1597 /* Foundation.framework in Frameworks */,
+				9042D7CE152299B500B10F70 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +135,7 @@
 		90119CC214EB66C900AA1597 = {
 			isa = PBXGroup;
 			children = (
+				9042D7D315229A2F00B10F70 /* libz.dylib */,
 				90119CD714EB66C900AA1597 /* Walky */,
 				90119D0014EB66CA00AA1597 /* WalkyTests */,
 				9042D7C1152279F600B10F70 /* Vendor */,
@@ -208,9 +226,21 @@
 		9042D7C1152279F600B10F70 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				9042D7C8152299B500B10F70 /* TestFlightSDK0.8.3 */,
 				9042D7B9152279E700B10F70 /* SVProgressHUD */,
 			);
 			name = Vendor;
+			sourceTree = "<group>";
+		};
+		9042D7C8152299B500B10F70 /* TestFlightSDK0.8.3 */ = {
+			isa = PBXGroup;
+			children = (
+				9042D7C9152299B500B10F70 /* libTestFlight.a */,
+				9042D7CA152299B500B10F70 /* README.txt */,
+				9042D7CB152299B500B10F70 /* release_notes.txt */,
+				9042D7CC152299B500B10F70 /* TestFlight.h */,
+			);
+			path = TestFlightSDK0.8.3;
 			sourceTree = "<group>";
 		};
 		90A6DC8914EC343C00BF7B1A /* images */ = {
@@ -310,6 +340,8 @@
 				9042D7BD152279E800B10F70 /* SVProgressHUD.bundle in Resources */,
 				9042D7C315228E7D00B10F70 /* location.png in Resources */,
 				9042D7C615228FCC00B10F70 /* location@2x.png in Resources */,
+				9042D7CF152299B500B10F70 /* README.txt in Resources */,
+				9042D7D1152299B500B10F70 /* release_notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +353,8 @@
 				9042D7BE152279E800B10F70 /* SVProgressHUD.bundle in Resources */,
 				9042D7C415228E7D00B10F70 /* location.png in Resources */,
 				9042D7C715228FCC00B10F70 /* location@2x.png in Resources */,
+				9042D7D0152299B500B10F70 /* README.txt in Resources */,
+				9042D7D2152299B500B10F70 /* release_notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +489,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
 				INFOPLIST_FILE = "Walky/Walky-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "07360532-A660-44CB-836E-4853C290EFFC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07360532-A660-44CB-836E-4853C290EFFC";
@@ -471,6 +509,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
 				INFOPLIST_FILE = "Walky/Walky-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "07360532-A660-44CB-836E-4853C290EFFC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07360532-A660-44CB-836E-4853C290EFFC";
@@ -490,6 +532,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
 				INFOPLIST_FILE = "WalkyTests/WalkyTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -507,6 +553,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Walky/Walky-Prefix.pch";
 				INFOPLIST_FILE = "WalkyTests/WalkyTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;

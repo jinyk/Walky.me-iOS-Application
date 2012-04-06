@@ -27,13 +27,13 @@
                                 <rect key="frame" x="0.0" y="416" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem image="location.png" id="wrb-RE-xkd">
+                                    <barButtonItem image="location.png" id="wrb-RE-xkd" userLabel="location">
                                         <connections>
-                                            <action selector="locateMeButton:" destination="2" id="mFp-jx-QRI"/>
+                                            <action selector="locateMe:" destination="2" id="ITA-Ac-OfL"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sK3-Do-iJB"/>
-                                    <barButtonItem style="plain" id="Ndi-vB-gDI">
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sK3-Do-iJB" userLabel="__"/>
+                                    <barButtonItem style="plain" id="Ndi-vB-gDI" userLabel="search_direction">
                                         <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Brx-Cl-2as">
                                             <rect key="frame" x="71" y="8" width="178" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -44,8 +44,12 @@
                                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </segmentedControl>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2gw-A0-7l3"/>
-                                    <barButtonItem systemItem="pageCurl" id="fO6-5Q-4sG"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2gw-A0-7l3" userLabel="__"/>
+                                    <barButtonItem image="feedback.png" id="fO6-5Q-4sG" userLabel="feedback">
+                                        <connections>
+                                            <action selector="giveFeedback:" destination="2" id="zPX-Is-4X7"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <searchBar contentMode="redraw" barStyle="blackTranslucent" id="e4w-bC-zwB">
@@ -59,7 +63,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Near By" image="radar.png" id="7"/>
                     <connections>
                         <outlet property="mapView" destination="zoH-vB-JcO" id="eab-qZ-deL"/>
                         <outlet property="searchDisplayController" destination="jWr-De-y9L" id="kli-uN-koc"/>
@@ -74,7 +77,7 @@
                         <outlet property="searchResultsDelegate" destination="2" id="j9x-zL-mFE"/>
                     </connections>
                 </searchDisplayController>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="2.0000000000000004" id="3Co-Tr-V7U">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="1.2999999999999998" id="3Co-Tr-V7U">
                     <connections>
                         <action selector="addMarker:" destination="2" id="4En-Wc-IWP"/>
                     </connections>
@@ -84,14 +87,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="feedback.png" width="12" height="12"/>
         <image name="location.png" width="12" height="12"/>
-        <image name="radar.png" width="27" height="27"/>
     </resources>
     <classes>
         <class className="WalkyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WalkyViewController.h"/>
             <relationships>
                 <relationship kind="action" name="addMarker:" candidateClass="UILongPressGestureRecognizer"/>
+                <relationship kind="action" name="giveFeedback:"/>
                 <relationship kind="action" name="locateMeButton:"/>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
             </relationships>

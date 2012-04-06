@@ -9,6 +9,7 @@
 #import "WalkyViewController.h"
 #import "WalkyManager.h"
 #import "SVProgressHUD.h"
+#import "MapViewAnnotation.h"
 
 @implementation WalkyViewController
 
@@ -38,7 +39,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     [self.mapView setShowsUserLocation:YES];
-    [self locateMeButton:nil];
+    [self locateMe:nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -53,19 +54,19 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-#pragma mark - Location Related
+#pragma mark - actions
 
 - (void)updateMapCenter:(CLLocation *)location {
     [self.mapView setRegion:MKCoordinateRegionMake(location.coordinate, MKCoordinateSpanMake(0.05, 0.05))];    
 }
 
-- (IBAction)locateMeButton:(id)sender {
+- (IBAction)locateMe:(id)sender {
     [SVProgressHUD showWithStatus:@"locating you..."];
     WalkyManager *sharedManager = [WalkyManager sharedManager];
     [sharedManager.locationManager startUpdatingLocation];
     if (!sharedManager.hasDeterminedLocation) {
         [SVProgressHUD showWithStatus:@"locating you..."];
-        [self performSelector:@selector(locateMeButton:) withObject:sender afterDelay:1];
+        [self performSelector:@selector(locateMe:) withObject:sender afterDelay:1];
     } else {
         [sharedManager stopLocationManager];
         [SVProgressHUD dismiss];
@@ -82,17 +83,26 @@
     }
 }
 
+- (IBAction)giveFeedback:(id)sender {
+    [TestFlight openFeedbackView];
+}
+
 - (IBAction)addMarker:(UILongPressGestureRecognizer *)sender {
     CGPoint touchPoint = [sender locationInView:self.mapView];
     CLLocationCoordinate2D touchMapCoordinate = [self.mapView convertPoint:touchPoint toCoordinateFromView:self.mapView];
     switch (sender.state) {
         case UIGestureRecognizerStateBegan:
-            NSLog(@"Began at: %f,%f", touchMapCoordinate.latitude, touchMapCoordinate.longitude);
-            break;
+            {
+                MapViewAnnotation *newAnnotation = [[MapViewAnnotation alloc] initWithTitle:@"new location" andCoordinate:touchMapCoordinate];
+                [self.mapView addAnnotation:newAnnotation];
+                NSLog(@"Began at: %f,%f", touchMapCoordinate.latitude, touchMapCoordinate.longitude);
+                break;
+            }
         case UIGestureRecognizerStateEnded:
-            NSLog(@"Ended at: %f,%f", touchMapCoordinate.latitude, touchMapCoordinate.longitude);
-//            [sender setEnabled:NO];
-            break;
+            {
+                NSLog(@"Ended at: %f,%f", touchMapCoordinate.latitude, touchMapCoordinate.longitude);
+                break;
+            }
         default:
             break;
     }

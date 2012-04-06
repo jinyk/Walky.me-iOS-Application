@@ -13,7 +13,8 @@
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
-- (IBAction)locateMeButton:(id)sender;
+- (IBAction)locateMe:(id)sender;
+- (IBAction)giveFeedback:(id)sender;
 - (IBAction)addMarker:(UILongPressGestureRecognizer *)sender;
 
 @end
